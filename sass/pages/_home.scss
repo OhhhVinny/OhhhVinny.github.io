@@ -49,10 +49,10 @@
     display: block;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
-    transition: background .3s;
+    transition: background 0.3s;
 
     &:hover {
-      background: rgba(#fff,.1);
+      background: rgba(#fff, 0.1);
     }
 
     &--bd-none {
@@ -126,6 +126,15 @@
 }
 
 .projects {
+  background: linear-gradient(
+      to right,
+      rgba($themeClrPrimary, 0.8),
+      rgba($themeClrPrimary, 0.8)
+    ),
+    url(../../assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
+
   &__row {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -166,6 +175,7 @@
       }
 
       &-title {
+        color: #fff;
         font-weight: 700;
         font-size: 2.8rem;
         margin-bottom: 2rem;
@@ -188,15 +198,7 @@
 }
 
 .contact {
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
-  background-size: cover;
-  background-position: center;
-
+  background: #fafafa;
   &__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: rgba(#fff, 2);
