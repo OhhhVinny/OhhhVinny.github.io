@@ -21,6 +21,11 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   font-family: inherit;
 }
 
+iframe {
+  aspect-ratio: 16/9;
+  object-fit: contain;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -537,17 +542,25 @@ textarea {
   }
 }
 .project-cs-hero__content {
-  padding: 25rem 0 17rem 0;
+  padding: 10rem 0 10rem 0;
   max-width: 90rem;
   width: 92%;
   margin: auto;
 }
+
+.premierProjet {
+  padding: 18rem 0 10rem 0;
+}
 @media only screen and (max-width: 37.5em) {
   .project-cs-hero__content {
-    padding: 19rem 0 13rem 0;
+    padding: 8rem 0 8rem 0;
     margin: auto;
     position: static;
     transform: translate(0, 0);
+  }
+
+  .premierProjet {
+    padding: 15rem 0 7rem 0;
   }
 }
 .project-cs-hero__info {
@@ -909,4 +922,68 @@ textarea {
     opacity: 0;
     top: 27px;
   }
+}
+
+.swiper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.swiper-button {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: #ff9100;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.swiper-dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #000000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #ff9100;
 }
