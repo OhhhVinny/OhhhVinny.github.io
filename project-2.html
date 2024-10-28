@@ -81,17 +81,87 @@
       </div>
     </header>
     <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
+      <div class="project-cs-hero__content premierProjet">
+        <h1 class="heading-primary">Scène Bar</h1>
         <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
-          </p>
+          <p class="text-primary">3D</p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="swiper">
+            <div class="project-details__showcase-img-cont swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="project-details__showcase-img"
+                  src="./assets/jpeg/rendue_scene_finale_01.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="project-details__showcase-img"
+                  src="./assets/jpeg/rendue_scene_finale_02.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="project-details__showcase-img"
+                  src="./assets/jpeg/rendue_scene_finale_03.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <button class="swiper-button prev" onclick="moveSlide(-1)">
+              &#10094;
+            </button>
+            <button class="swiper-button next" onclick="moveSlide(1)">
+              &#10095;
+            </button>
+            <div class="swiper-dots">
+              <span class="dot" onclick="goToSlide(0)"></span>
+              <span class="dot" onclick="goToSlide(1)"></span>
+              <span class="dot" onclick="goToSlide(2)"></span>
+            </div>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Description</h3>
+              <p class="project-details__desc-para">
+                Dans le cadre d'un projet scolaire en équipe sur une, nous
+                devions imaginer un ambiance, modéliser en 3D une scène avec ses
+                composantes et créer les textures.
+              </p>
+              <h3 class="project-details__content-title">Rôles</h3>
+              <p class="project-details__desc-para">- Modélisation 3D</p>
+              <p class="project-details__desc-para">
+                - Travailler les textures/éclairages
+              </p>
+              <h3 class="project-details__content-title">En collaboration</h3>
+              <p class="project-details__desc-para">
+                - Flor Michell De La Cruz Montano
+              </p>
+              <p class="project-details__desc-para">- Ikrame Rata</p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Outils</h3>
+                <div class="skills">
+                  <div class="skills__skill">Maya</div>
+                  <div class="skills__skill">Unity</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content premierProjet">
+        <h1 class="heading-primary">Pixar</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">3D</p>
         </div>
       </div>
     </section>
@@ -99,63 +169,121 @@
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
+            <video
               class="project-details__showcase-img"
-            />
+              src="./assets/video/delisle_vincent_TP3_582414.mp4"
+              controls
+            ></video>
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
+              <h3 class="project-details__content-title">Description</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Dans le cadre d'un projet scolaire en animation 3D, j'ai
+                modélisé et animé ma propre version de l'intro de Pixar.
               </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+              <h3 class="project-details__content-title">Rôles</h3>
+              <p class="project-details__desc-para">- Modélisation 3D</p>
+              <p class="project-details__desc-para">- Animation 3D</p>
+              <p class="project-details__desc-para">- Montage vidéo</p>
+              <p class="project-details__desc-para">- Montage Sonore</p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Outils</h3>
+                <div class="skills">
+                  <div class="skills__skill">Davinci Resolve</div>
+                  <div class="skills__skill">Maya</div>
+                </div>
               </div>
             </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content premierProjet">
+        <h1 class="heading-primary">Onirisme</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">3D</p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <video
+              class="project-details__showcase-img"
+              src="./assets/video/delisle_vincent_onirisme.mp4"
+              controls
+            ></video>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Description</h3>
+              <p class="project-details__desc-para">
+                Dans le cadre d'un projet scolaire en animation 3D, j'ai
+                modélisé et animé des scènes 3D autour du thème
+                <em>Onirisme</em> ainsi que le montage vidéo et sonore.
+              </p>
+              <h3 class="project-details__content-title">Rôles</h3>
+              <p class="project-details__desc-para">- Modélisation 3D</p>
+              <p class="project-details__desc-para">- Animation 3D</p>
+              <p class="project-details__desc-para">- Montage vidéo</p>
+              <p class="project-details__desc-para">- Montage Sonore</p>
+              <h3 class="project-details__content-title">En collaboration</h3>
+              <p class="project-details__desc-para">- Ikrame Rata</p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Outils</h3>
+                <div class="skills">
+                  <div class="skills__skill">Davinci Resolve</div>
+                  <div class="skills__skill">Maya</div>
+                  <div class="skills__skill">Reaper</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content premierProjet">
+        <h1 class="heading-primary">Deuil</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">2D</p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <video
+              class="project-details__showcase-img"
+              src="./assets/video/delisle_vincent_generique_582_214.mp4"
+              controls
+            ></video>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Description</h3>
+              <p class="project-details__desc-para">
+                Dans le cadre d'un projet vidéo, j'ai produit un générique de
+                fin en animation 2D qui devait bien s'agencer au montage vidéo.
+              </p>
+              <h3 class="project-details__content-title">Rôles</h3>
+              <p class="project-details__desc-para">- Illustrations</p>
+              <p class="project-details__desc-para">- Montage vidéo</p>
+              <p class="project-details__desc-para">- Animations</p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">Outils</h3>
+                <div class="skills">
+                  <div class="skills__skill">Davinci Resolve</div>
+                  <div class="skills__skill">Illustrator</div>
+                  <div class="skills__skill">Photoshop</div>
+                  <div class="skills__skill">After Effects</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -191,14 +319,6 @@
               Saint-Eustache, Québec, Canada
             </p>
           </div>
-        </div>
-
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
         </div>
       </div>
     </footer>
